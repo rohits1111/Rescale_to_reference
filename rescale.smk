@@ -3,6 +3,7 @@ rule all:
         "Difference_a_b.bed"
         "to_pull.tsv",
         "final_file_normalised.tsv",
+        "line_plot.png"
         
 rule for_Normalised_freq_from_shuf_ab_file:
     input:
